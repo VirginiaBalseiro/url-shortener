@@ -1,0 +1,65 @@
+/****** Main Styling ******/
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	color: #222;
+	background: linear-gradient(to left, #654ea3, #eaafc8);
+	text-align: center;
+	line-height: 1.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.container {
+  background: white;
+  display: flex;
+  width: max-content;
+  flex-direction: column;
+  box-shadow: 10px 10px 37px -7px rgba(0,0,0,0.75);
+	padding: 30px;
+	margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+h3 {
+  margin-top: 30px;
+}
+
+.footer {
+  display: flex;
+	margin-top: 40px;
+}
+
+.user-stories {
+  position: relative;
+  text-align: justify;
+  max-width: 700px;
+  margin: 15px auto;
+}
+code {
+  font-family: monospace;
+  padding: 2px;
+  color: black;
+  background-color: #fff;
+}
+ol {
+	list-style-position: outside;
+}
+ul {
+	list-style-type: none;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+.user-stories li {
+  margin-bottom: 1em;
+}
+
+a {
+	color: #2574A9;
+}
